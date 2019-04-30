@@ -238,10 +238,16 @@ fill(255, 0, 0)
 
 **What do these numbers do? What happens when you change them?**
 
+They are the RBG values of Draw. it changes the color that we draw in.
+
 **What does fill mean? What happens if you change it to stroke?**
+
+fill makes the color fill the dots that we are drawing. stroke makes the color the outer diameter ring color of the dots that we draw with.
 
 **What happens if you remove (or comment out) this line? What about if you
 include both fill and stroke on seperate lines?**
+
+If we comment out the "fill" line, we just get white dots with no color at all. If we add both fill and stroke on separate lines, the dots have one uniform color. both the outer diameter ring as the inside of the dots are the same color, or both colors can be changed.
 
 Now look at this line:
 
