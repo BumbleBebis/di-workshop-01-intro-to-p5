@@ -141,11 +141,19 @@ createCanvas(400, 400)
 
 **What does createCanvas do?**
 
+It creates a square or rectangle.
+
 **What happens if you change the numbers?**
+
+The size of the canvas will change.
 
 **What numbers are allowed/what numbers have an effect?**
 
+Numbers without decimals are allowed
+
 **What happens if you add/remove a number?**
+
+When i add a number nothing happens, when i remove a number th canvas disappears.
 
 **Can you guess what the `function setup() {` part does? What happens if you
 change the name of setup?**
