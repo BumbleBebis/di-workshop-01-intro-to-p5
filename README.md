@@ -206,10 +206,16 @@ function setup() {
 
 **What does setup do?**
 
+It sets up the box that you can draw in.
+
 **What do `{` `}` mean? What happens if you remove one?**
+
+These contain the code, if we remove one the whole code stops working.
 
 **What do the numbers in `background(0, 0, 0)` do? What happens when you change
 them? How is this different from Sketch A?**
+
+They change the colors of the bakcground, they are RGB values. Here we change the color hues in the brackets instead of setting the hue values as variables.
 
 Now look at these lines:
 
@@ -221,6 +227,8 @@ function draw() {
 ```
 
 **What does draw do?**
+
+Draw allows us to draw into the canvas with our cursor.
 
 Now look at:
 
