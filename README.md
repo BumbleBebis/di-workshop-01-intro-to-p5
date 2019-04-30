@@ -125,7 +125,11 @@ var b = 0
 
 **What might these lines do?**
 
+These are the colors.
+
 **What happens if you change the numbers?**
+
+The color changed.
 
 **What numbers are allowed / What numbers have an effect?**
 
