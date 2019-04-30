@@ -257,15 +257,25 @@ ellipse(mouseX, mouseY, 30, 30)
 
 **What does `ellipse` do?**
 
+ellipse determines the shape that we are drawing.
+
 **What happens if you change the numbers?**
+
+The shape of the dots changes.
 
 **What do `mouseX` and `mouseY` mean?**
 
+It means that we can draw on both the X and Y axis. for instance if we delete Y, we can only draw horizontally (along the X axis).
+
 **What happens if you change the order of the items between the `(` `)`?**
+
+It messes with our ability to draw. I changed to this (mouseX, 30, mouseY, 30) and i can only draw along the X axis.
 
 ---
 
 **What happens if you add `background(0)` after `draw() {`? Why?**
+
+It adds a background to the draw layer, we can't see what we are drawing as the canvas is covered by this new background.
 
 Replace the ellipse with a triangle. Use https://p5js.org/reference/ (the 2D
 primitives section) to help.
