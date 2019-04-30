@@ -158,6 +158,8 @@ When i add a number nothing happens, when i remove a number th canvas disappears
 **Can you guess what the `function setup() {` part does? What happens if you
 change the name of setup?**
 
+It literally sets up the canvas. when you change the name the canvas doesnt get created and there is a blank page.
+
 Look at this line:
 
 ```js
@@ -166,12 +168,20 @@ background(r, g, b)
 
 **What does background do?**
 
+It select the background to take on a new color.
+
 **What happens if you change the order of the letters in background? What does
 this tell you about how the computer uses them?**
 
+The background color will change, the computer is set to read them in the order R, G, B.
+
 **What happens if you change the number of letters?**
 
+The code does not work.
+
 **What happens if you change the letters for different ones?**
+
+The code does not work.
 
 # Sketch B
 
