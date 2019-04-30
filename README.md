@@ -302,15 +302,25 @@ if (mouseIsPressed) {
 
 **What does `mouseIsPressed` mean?**
 
+When you keep your mouse pressed the color that you draw with will change.
+
 **What happens if you change `mouseIsPressed` to `keyIsPressed`?** You’ll need
 to click on the sketch so it registers keyboard events – use the ctrl key if you
 have issues with the keyboard.
 
+It does the same as keyIsPressed, but instead of pressing your mouse you can press any key on your keyboard.
+
 **What does if / else do?**
+
+If/else is the part of the code that has the color set for each situation (mouse hover or mouse/key pressed).
 
 **What happens if you remove the { } or ( )? Why?**
 
+The code doesn't work properly, the {} and () are used to contain the code.
+
 **What happens if you change 255 to mouseX ? Why?**
+
+It puts a dark fade over the canvas from left to right.
 
 **Remove the outline of the circle. Use Google and the P5.js reference to help
 you.**
